@@ -71,7 +71,7 @@ public class AmendBookingDefs {
 
     @Then("Write the information capture to a csv file")
     public void write_the_information_capture_to_a_csv_file() {
-        BrowserUtils.writeCsv("test.jpeg");
+        BrowserUtils.writeAndReadCsv("test.jpeg");
 
     }
 

@@ -38,7 +38,7 @@ public class BrowserUtils {
         FileUtils.copyFile(screenshot,new File("test.jpeg"));
     }
 
-    public static void writeCsv(String filepath) {
+    public static void writeAndReadCsv(String filepath) {
         File file = new File(filepath);
         try {
             FileWriter outputFile = new FileWriter(file);
